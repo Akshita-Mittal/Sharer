@@ -1,0 +1,457 @@
+@media(max-width: 1680px) {
+    .app-slider button.owl-prev {
+        left: -10px;
+    }
+
+    .app-slider button.owl-next {
+        right: 0;
+    }
+
+    .banner-content-right {
+        right: 50px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .container {
+        max-width: 1170px;
+        width: 100%;
+    }
+
+    .site-header ul.nav.navbar-nav li a {
+        font-size: 22px;
+        padding: 10px 10px;
+    }
+
+    .banner-heading h2 {
+        font-size: 45px;
+        line-height: 1.2;
+    }
+
+    .banner-desc p {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+
+    .banner-app-store img {
+        width: 200px;
+    }
+
+    .banner-content-left {
+        padding: 60px 0;
+    }
+
+    .hero-image-banner {
+        height: 650px;
+    }
+
+    .banner-content-right {
+        position: absolute;
+        right: 0;
+        bottom: -530px;
+    }
+
+    .about-title h2 {
+        font-size: 22px;
+        padding: 10px 0;
+    }
+
+    .about-heading h3 {
+        font-size: 26px;
+    }
+
+    .about-desc p {
+        font-size: 20px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    .about-desc ul li {
+        font-size: 20px;
+    }
+
+    .about-section {
+        padding: 30px 0;
+    }
+
+    .feature-heading h2 {
+        font-size: 22px;
+    }
+
+    .feature-sub-heading h3 {
+        font-size: 26px;
+    }
+
+    .feature-icon-heading h2 {
+        font-size: 22px;
+    }
+
+    .feature-icon-desc p {
+        font-size: 20px;
+    }
+
+    .video-heading h2 {
+        font-size: 46px;
+    }
+
+    .app-screenshot-section {
+        padding: 30px 0 60px;
+    }
+
+    .app-heading h2 {
+        font-size: 36px;
+    }
+
+    .app-desc p {
+        font-size: 20px;
+    }
+
+    .app-slider button.owl-prev span,
+    .app-slider button.owl-next span {
+        font-size: 55px;
+        line-height: 0.5;
+        font-family: 'Futura PT';
+        font-weight: 100;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 25px !important;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.17) !important;
+        background-color: #cecece !important;
+        color: #fff;
+    }
+
+    .app-slider button.owl-prev {
+        position: relative;
+        top: 0;
+        left: -50px;
+    }
+
+    .app-slider button.owl-next {
+        position: relative;
+        top: 0;
+        right: -20px;
+    }
+
+    button.owl-next:hover span,
+    button.owl-next:focus span,
+    button.owl-prev:hover span,
+    button.owl-prev:focus span {
+        color: #ffffff !important;
+    }
+
+    .contact-content-left,
+    .contact-content-right {
+        padding: 0 10px;
+    }
+
+    .contact-title h2 {
+        font-size: 22px;
+    }
+
+    .contact-heading h3 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    .contact-number p {
+        font-size: 20px;
+        line-height: 1.2;
+        padding: 20px 0;
+    }
+
+    .contact-number a {
+        font-size: 26px;
+    }
+
+    .footer-top {
+        margin: 30px 20px;
+    }
+
+    .footer-bottom {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .navbar-header {
+        float: initial;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+
+    .collapse.in {
+        display: block !important;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .nav--logo img {
+        height: 125px;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border-color: transparent;
+        background-color: #fff;
+    }
+
+    .navbar-collapse {
+        border-top: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .site-header ul.navbar-nav {
+        float: left;
+    }
+
+    .navbar {
+        border: none;
+    }
+
+    .navbar-nav {
+        margin: 0;
+    }
+
+    .navbar-toggle {
+        margin-right: 15px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+
+    .site-header ul.nav.navbar-nav li a {
+        font-size: 18px;
+        line-height: 1;
+        color: #53e2e4;
+        margin: 20px 0px;
+        padding: 10px 20px;
+        text-align: left;
+    }
+
+    .site-header ul.nav.navbar-nav li a.coming-soon {
+        border: 2px solid #53e2e4;
+        text-align: center;
+    }
+
+    .banner-heading h2 {
+        font-size: 26px;
+        line-height: 1.4;
+    }
+
+    .banner-desc p {
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    .banner-app-store img {
+        margin: 10px auto;
+        width: 220px;
+        display: block;
+    }
+
+    .hero-image-banner {
+        height: 700px;
+    }
+
+    .banner-content-right img {
+        display: none;
+    }
+
+    .banner-content-left {
+        padding: 30px 0;
+    }
+
+    .about-section {
+        padding: 20px 0;
+    }
+
+    .about-content-right {
+        padding: 20px 0;
+    }
+
+    .about-title h2 {
+        font-size: 18px;
+        line-height: 1;
+        padding: 10px 0;
+    }
+
+    .about-heading h3 {
+        font-size: 20px;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    .about-desc p {
+        font-size: 18px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    .about-desc ul li img {
+        margin: 0 10px 0 0;
+        width: 15px;
+    }
+
+    .about-desc ul li {
+        font-size: 16px;
+        line-height: 1.5;
+        padding: 10px 0;
+    }
+
+    .about-content-left img {
+        margin: auto;
+        display: block;
+    }
+
+    .feature-section {
+        padding: 20px 0;
+    }
+
+    .feature-heading h2 {
+        font-size: 18px;
+        line-height: 1;
+    }
+
+    .feature-sub-heading h3 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+
+    .feature-content-bottom {
+        margin: 30px 0;
+    }
+
+    .feature-icon-heading h2 {
+        font-size: 20px;
+    }
+
+    .feature-icon-desc p {
+        font-size: 18px;
+    }
+
+    .feature-icon {
+        margin: 10px auto;
+    }
+
+    .video-heading h2 {
+        font-size: 26px;
+        line-height: 1.5;
+        padding: 20px 0;
+    }
+
+    .app-screenshot-section {
+        padding: 20px 0;
+    }
+
+    .app-heading h2 {
+        font-size: 26px;
+    }
+
+    .app-desc p {
+        font-size: 18px;
+    }
+
+    .app-slider .owl-item.active,
+    .app-slider .owl-item {
+        padding: 30px 0;
+    }
+
+    .owl-theme .owl-nav {
+        margin-top: -10px;
+    }
+
+
+    .form-row {
+        margin: 30px 0;
+    }
+
+    button.send-btn {
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 20px 0;
+    }
+
+    .contact-title h2 {
+        font-size: 18px;
+    }
+
+    .contact-heading h3 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .contact-number p {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .contact-number a {
+        font-size: 20px;
+    }
+
+    .contact-section {
+        padding: 40px 0;
+    }
+
+    .contact-content-right,
+    .contact-content-left {
+        padding: 0 10px;
+    }
+
+    .footer-top {
+        margin: 30px 15px 0;
+    }
+
+    .footer-left {
+        float: left;
+        width: 100%;
+    }
+
+    .footer-right {
+        float: left;
+        width: 100%;
+    }
+
+    .footer-links {
+        margin: 15px 0;
+    }
+
+    .footer-links a {
+        font-size: 16px;
+        margin: 20px 0;
+        display: block;
+    }
+
+    .social-networks a {
+        margin: 0;
+    }
+
+    .footer-bottom {
+        margin: 10px 15px 20px;
+    }
+
+    .footer-left p {
+        font-size: 16px;
+        margin: 0px;
+    }
+
+    .social-networks a {
+        margin-right: 15px;
+    }
+
+    .inner-banner-content {
+        padding: 0px 0;
+    }
+}
